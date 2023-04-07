@@ -620,13 +620,40 @@ li {
 /* Service part start */
 #service{
     padding-bottom: 160px;
+    position: relative;
+}
+.services_bg2{
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+.services_bg2 img{
+    width: 130px;
+}
+#service .all_common_part{
+    padding: 173px 0 86px;
+    position: relative;
+}
+#service .all_common_part .services_bg1{
+    position: absolute;
+    left: -40px;
+    bottom: -90px;
+    z-index: -1;
+}
+#service .all_common_part .services_bg1 img{
+    width: 130px;
 }
 .service_items{
     border: 1px solid black;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 .service_items ul{
     /* width: 645px; */
-    /* padding-top: 86px; */
+    /* margin-top: 86px; */
 
 }
 .service_items ul li{
@@ -673,16 +700,133 @@ li {
 
 
 /* Blog part start */
+#blog{
+    padding-bottom: 160px;
+}
 .all_common_part h2 span{
     display: block;
+}
+.blog_items{
+    padding: 88px 0 25px;
+}
+.blog_items .blog_pic{
+    position: relative;
+}
+.blog_items .blog_pic img{
+    width: 300px;
+    /* width: 423px; */
+}
+.blog_items .blog_pic .blog_pic_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.blog_items .blog_text{}
+.blog_items .blog_text h5{
+    color: var(--red_color);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--jost_font);
+    padding: 25px 0 5px;
+}
+.blog_items .blog_text h4{
+    color: var(--allh_black_color);
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 500;
+    font-family: var(--jost_font);
 }
 /* Blog part end */
 
 /* Testimonial part start */
 /* Testimonial part end */
 
-/* Testimonial part start */
-/* Testimonial part end */
+/* Contact part start */
+.contact_items{}
+.contact_items ul{}
+.contact_items ul li{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.contact_items ul li .c_icon.location{
+    color: var(--red_color);
+    font-size: 24px;
+    background: rgba(190, 52, 28, 0.1);
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_items ul li .c_icon.phone{
+    color: var(--purple_color);
+    font-size: 24px;
+    background: rgba(63, 28, 190, 0.1);
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.contact_items ul li .c_icon{
+    color: var(--green_color);
+    font-size: 24px;
+    background: rgba(28, 190, 90, 0.1);
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.contact_items ul li .c_text{}
+.contact_items ul li .c_text h5{
+    color: var(--allh_black_color);
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 500;
+    font-family: var(--jost_font);
+}
+.contact_items ul li .c_text p{
+    color: var(--allp_black_color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--open_sens_font);
+}
+.contact_items ul li .c_text a{
+    color: var(--allp_black_color);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--open_sens_font);
+}
+/* Contact part end */
 
 /* Testimonial part start */
 /* Testimonial part end */
